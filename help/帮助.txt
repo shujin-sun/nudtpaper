@@ -1,0 +1,16 @@
+﻿1. 上传远程特定分支(test)
+git push origin master:test
+
+2.删除远程特定分支
+git push origin :test
+
+3. 初次配置
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+4.取最新内容至本地
+git pull
+
+5. clone远程至本地
+git clone git@guthub.com:shujin_sun/nudtpaper.git
+
